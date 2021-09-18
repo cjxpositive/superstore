@@ -1,4 +1,8 @@
-import { createApp } from 'vue'
+import vue from 'vue'
 import App from './App.vue'
+import router from './router'
 
-createApp(App).mount('#app')
+new vue({
+  router,
+  render:h=>h(App)
+}).$mount('#app')

@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+<!--    <%= BASE_URL %>的意思是在当前路径下进行查找，在进行打包之后，这种语法就会被分解掉-->
+    <link rel="icon" href="<%= BASE_URL %>星星.png">
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
